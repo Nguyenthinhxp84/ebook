@@ -124,6 +124,7 @@ article  {
     font-family: var(--ytd-video-primary-info-renderer-title-font-family, inherit);
     background: #dddddd40;
     line-height: 30px;
+    text-align: justify;
 }
 
 article1  {
@@ -143,12 +144,14 @@ article p strong a{
     text-decoration: none;
     color: red;
     font-family: Tahoma;
+    text-align: justify;
 }
 
 article img {
     max-width: 100%;
     display: block;
     margin: 32px auto;
+    text-align: justify;
 }
 
 b, strong {
@@ -170,7 +173,6 @@ footer > ul{
     margin:0 auto;
     max-width:1200px;
     overflow:hidden;
-    padding: 10px 0;
     position:relative;
     width:95%;
 }
